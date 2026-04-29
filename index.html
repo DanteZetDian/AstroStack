@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AstroStack - IT-студия</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript" >
+       (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+       m[i].l=1*new Date();
+       for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+       k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+       (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+       ym(104873731, "init", {
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true,
+            webvisor:true
+       });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/104873731" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+</head>
+<body>
+    <!-- Космический фон -->
+    <div class="space-background">
+        <div class="stars"></div>
+        <div class="planet planet-1"></div>
+        <div class="planet planet-2"></div>
+    </div>
+    
+    <!-- Сетка панели управления -->
+    <div class="ship-grid"></div>
+    
+    <!-- Мигающие индикаторы -->
+    <div class="control-panel">
+        <div class="control-light"></div>
+        <div class="control-light"></div>
+        <div class="control-light"></div>
+    </div>
+
+    <!-- Header -->
+    <header id="header">
+        <div class="container header-container">
+            <a href="index.html" class="logo">AstroStack</a>
+            <div class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="index.html" class="active">Главная</a></li>
+                <li><a href="services.html">Услуги</a></li>
+                <li><a href="reviews.html">Отзывы</a></li>
+                <li><a href="about.html">О нас</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Создаем цифровые вселенные</h1>
+                <p class="hero-subtitle">AstroStack — полный цикл разработки: от идеи до запуска.</p>
+                <div class="hero-btns">
+                    <a href="contacts.html" class="btn">Обсудить проект</a>
+                    <a href="services.html" class="btn btn-secondary">Наши услуги</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="section features" id="features">
+        <div class="container">
+            <h2 class="section-title">Наши преимущества</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🚀</div>
+                    <h3 class="feature-title">Быстрый старт</h3>
+                    <p class="feature-desc">Запускаем проекты в кратчайшие сроки без потери качества.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎯</div>
+                    <h3 class="feature-title">Опытная команда</h3>
+                    <p class="feature-desc">Наши специалисты имеют многолетний опыт в разработке.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🛡️</div>
+                    <h3 class="feature-title">Поддержка 24/7</h3>
+                    <p class="feature-desc">Обеспечиваем круглосуточную техническую поддержку.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section" id="services">
+        <div class="container">
+            <h2 class="section-title">Популярные услуги</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-img">🌐</div>
+                    <div class="service-content">
+                        <h3 class="service-title">Лендинг</h3>
+                        <div class="service-price">от 15 000₽</div>
+                        <p class="service-desc">Одностраничный сайт для привлечения клиентов и повышения конверсии.</p>
+                        <a href="services.html" class="btn">Подробнее</a>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-img">🛒</div>
+                    <div class="service-content">
+                        <h3 class="service-title">Интернет-магазин</h3>
+                        <div class="service-price">от 60 000₽</div>
+                        <p class="service-desc">Полнофункциональная платформа для онлайн-продаж с интеграцией платежей.</p>
+                        <a href="services.html" class="btn">Подробнее</a>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-img">📱</div>
+                    <div class="service-content">
+                        <h3 class="service-title">Веб-приложение</h3>
+                        <div class="service-price">от 120 000₽</div>
+                        <p class="service-desc">Сложные веб-приложения с уникальным функционалом для вашего бизнеса.</p>
+                        <a href="services.html" class="btn">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <div class="footer-logo">AstroStack</div>
+                    <p class="footer-desc">Создаем цифровые решения для вывода вашего бизнеса на новую орбиту.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-vk"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-telegram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3 class="footer-heading">Навигация</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="services.html">Услуги</a></li>
+                        <li><a href="reviews.html">Отзывы</a></li>
+                        <li><a href="about.html">О нас</a></li>
+                        <li><a href="contacts.html">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3 class="footer-heading">Услуги</h3>
+                    <ul class="footer-links">
+                        <li><a href="services.html">Лендинги</a></li>
+                        <li><a href="services.html">Интернет-магазины</a></li>
+                        <li><a href="services.html">Веб-приложения</a></li>
+                        <li><a href="services.html">Техническая поддержка</a></li>
+                        <li><a href="services.html">SEO-оптимизация</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3 class="footer-heading">Контакты</h3>
+                    <ul class="footer-links">
+                        <li><a href="tel:+79180159157">+7 918 015-91-57</a></li>
+                        <li><a href="mailto:i.kharenko@astrostack.ru">i.kharenko@astrostack.ru</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2024 AstroStack. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    
+    <script>
+        // Обработчик для корректного отслеживания переходов
+        document.addEventListener('click', function (e) {
+            const link = e.target.closest('a');
+            if (link && link.href) {
+                const url = new URL(link.href);
+                if (url.hostname !== window.location.hostname || url.pathname.endsWith('.html')) {
+                    e.preventDefault();
+                    setTimeout(() => { window.location = link.href; }, 300);
+                }
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Отзывы | AstroStack - IT-студия</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript" >
+       (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+       m[i].l=1*new Date();
+       for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+       k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+       (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+       ym(104873731, "init", {
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true,
+            webvisor:true
+       });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/104873731" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+</head>
+<body>
+    <!-- Космический фон -->
+    <div class="space-background">
+        <div class="stars"></div>
+        <div class="planet planet-1"></div>
+        <div class="planet planet-2"></div>
+    </div>
+    
+    <!-- Сетка панели управления -->
+    <div class="ship-grid"></div>
+    
+    <!-- Мигающие индикаторы -->
+    <div class="control-panel">
+        <div class="control-light"></div>
+        <div class="control-light"></div>
+        <div class="control-light"></div>
+    </div>
+
+    <!-- Header -->
+    <header id="header">
+        <div class="container header-container">
+            <a href="index.html" class="logo">AstroStack</a>
+            <div class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="services.html">Услуги</a></li>
+                <li><a href="reviews.html" class="active">Отзывы</a></li>
+                <li><a href="about.html">О нас</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Отзывы наших клиентов</h1>
+                <p class="hero-subtitle">Узнайте, что говорят о нас те, кто уже доверил нам свои проекты</p>
+                <div class="hero-btns">
+                    <a href="contacts.html" class="btn">Оставить отзыв</a>
+                    <a href="services.html" class="btn btn-secondary">Наши услуги</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="section" id="reviews">
+        <div class="container">
+            <h2 class="section-title">Отзывы клиентов</h2>
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="review-avatar">АК</div>
+                        <div class="review-info">
+                            <h3>Алексей Ковалев</h3>
+                            <div class="review-date">15 декабря 2024</div>
+                        </div>
+                    </div>
+                    <div class="review-rating">★★★★★</div>
+                    <div class="review-text">
+                        "Заказывал разработку интернет-магазина для своего бизнеса. Ребята из AstroStack выполнили работу быстро и качественно. Особенно хочу отметить внимательное отношение к деталям и оперативную техническую поддержку. Магазин работает без нареканий, конверсия выросла на 35%!"
+                    </div>
+                </div>
+                
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="review-avatar">МП</div>
+                        <div class="review-info">
+                            <h3>Мария Петрова</h3>
+                            <div class="review-date">3 декабря 2024</div>
+                        </div>
+                    </div>
+                    <div class="review-rating">★★★★★</div>
+                    <div class="review-text">
+                        "Обратилась в AstroStack для создания лендинга для моего онлайн-курса. Результат превзошел ожидания! Дизайн современный, функциональность на высоте. Но главное - количество заявок увеличилось в 2 раза по сравнению с предыдущей версией сайта. Очень рекомендую!"
+                    </div>
+                </div>
+                
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="review-avatar">ДС</div>
+                        <div class="review-info">
+                            <h3>Дмитрий Сидоров</h3>
+                            <div class="review-date">25 ноября 2024</div>
+                        </div>
+                    </div>
+                    <div class="review-rating">★★★★☆</div>
+                    <div class="review-text">
+                        "Заказывал корпоративный сайт для нашей IT-компании. Сделали все качественно, но были небольшие задержки по срокам. Впрочем, команда оперативно реагировала на все наши пожелания и дорабатывала проект. В итоге получился отличный сайт, который полностью отражает наш бренд."
+                    </div>
+                </div>
+                
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="review-avatar">ЕЗ</div>
+                        <div class="review-info">
+                            <h3>Елена Захарова</h3>
+                            <div class="review-date">12 ноября 2024</div>
+                        </div>
+                    </div>
+                    <div class="review-rating">★★★★★</div>
+                    <div class="review-text">
+                        "Сотрудничаем с AstroStack уже более года по технической поддержке нашего сайта. Всегда оперативно решают возникающие вопросы, вносят необходимые доработки. Особенно ценно, что предлагают улучшения, о которых мы сами не задумывались. Надежный партнер!"
+                    </div>
+                </div>
+                
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="review-avatar">СМ</div>
+                        <div class="review-info">
+                            <h3>Сергей Морозов</h3>
+                            <div class="review-date">5 ноября 2024</div>
+                        </div>
+                    </div>
+                    <div class="review-rating">★★★★★</div>
+                    <div class="review-text">
+                        "Разрабатывали с AstroStack сложное веб-приложение для управления проектами. Команда проявила себя как настоящие профессионалы: глубоко погрузились в задачу, предложили оптимальные технические решения, учли все нюансы. Результатом очень доволен, планируем дальнейшее сотрудничество."
+                    </div>
+                </div>
+                
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="review-avatar">АВ</div>
+                        <div class="review-info">
+                            <h3>Анна Васильева</h3>
+                            <div class="review-date">28 октября 2024</div>
+                        </div>
+                    </div>
+                    <div class="review-rating">★★★★★</div>
+                    <div class="review-text">
+                        "Заказывала редизайн сайта для своего бьюти-салона. AstroStack не просто сделали красивый дизайн, а продумали пользовательский опыт до мелочей. После запуска нового сайта количество онлайн-записей увеличилось на 60%! Очень благодарна команде за профессионализм и креативный подход."
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section features">
+        <div class="container">
+            <h2 class="section-title">Хотите так же?</h2>
+            <div style="text-align: center; max-width: 600px; margin: 0 auto;">
+                <p style="margin-bottom: 30px; font-size: 1.2rem; color: var(--color-moon-glow);">
+                    Присоединяйтесь к нашим довольным клиентам! Оставьте заявку и мы создадим для вас проект, который превзойдет ожидания.
+                </p>
+                <a href="contacts.html" class="btn">Начать проект</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <div class="footer-logo">AstroStack</div>
+                    <p class="footer-desc">
+                        Создаем цифровые решения "от идеи до запуска". Выводим бизнес на новую орбиту с помощью современных веб-технологий.
+                    </p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-telegram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-vk"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h3 class="footer-heading">Навигация</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="services.html">Услуги</a></li>
+                        <li><a href="reviews.html">Отзывы</a></li>
+                        <li><a href="about.html">О нас</a></li>
+                        <li><a href="contacts.html">Контакты</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3 class="footer-heading">Услуги</h3>
+                    <ul class="footer-links">
+                        <li><a href="services.html">Веб-разработка</a></li>
+                        <li><a href="services.html">UI/UX дизайн</a></li>
+                        <li><a href="services.html">Мобильные приложения</a></li>
+                        <li><a href="services.html">Техническая поддержка</a></li>
+                        <li><a href="services.html">SEO оптимизация</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3 class="footer-heading">Контакты</h3>
+                    <ul class="footer-links">
+                        <li><a href="tel:+79180159157">+7 (918) 015-91-57</a></li>
+                        <li><a href="mailto:i.kharenko@astrostack.ru">i.kharenko@astrostack.ru</a></li>
+                        <li>Пн-Пт: 9:00 - 18:00</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                &copy; 2024 AstroStack. Все права защищены.
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+     <script>
+        // Обработчик для корректного отслеживания переходов
+        document.addEventListener('click', function (e) {
+            const link = e.target.closest('a');
+            if (link && link.href) {
+                const url = new URL(link.href);
+                if (url.hostname !== window.location.hostname || url.pathname.endsWith('.html')) {
+                    e.preventDefault();
+                    setTimeout(() => { window.location = link.href; }, 300);
+                }
+            }
+        });
+    </script>
+</body>
+</html>
